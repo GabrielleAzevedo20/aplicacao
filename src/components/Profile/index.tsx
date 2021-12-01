@@ -1,14 +1,14 @@
 import React from 'react'
-import { MaterialCommunityIcons } from '@expo/vector-icons'; 
-import { FontAwesome5 } from '@expo/vector-icons'; 
-import { Feather } from '@expo/vector-icons'; 
-import { Container, Content, Input } from './styles'
+import { Container, Content, Input, Message } from './styles'
 
 
 export function Profile() {
     return(
         <Container>
             <Content>
+                <Message>
+                    Coloque seu CPF
+                </Message>
                 <Input type="text" placeholder="CPF"/>
             </Content>
         </Container>

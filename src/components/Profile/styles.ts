@@ -18,3 +18,8 @@ export const User = styled.View`
 export const Input = styled.TextInput`
 
 `;
+
+export const Message = styled.Text`
+    font-family: ${({ theme }) => theme.fonts.title500};
+    color: ${({ theme }) => theme.colors.overlay};
+`;

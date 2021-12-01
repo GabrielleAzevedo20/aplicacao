@@ -1,10 +1,20 @@
 import styled from 'styled-components/native';
+import { Feather } from '@expo/vector-icons';
 
 export const Container = styled.View`
     flex: 1;
     align-items: center;
     justify-content: center;
     background-color: ${({ theme }) => theme.colors.background}; 
+`;
+
+export const Menu = styled(Feather)`
+    color: #fff;
+    font-size: 40px;
+    display: flex;
+    position: relative;
+    margin-left: -85%;
+    margin-top: -32px;
 `;
 
 export const Content = styled.View`

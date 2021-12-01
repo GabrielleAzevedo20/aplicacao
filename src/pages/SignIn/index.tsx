@@ -4,7 +4,7 @@ import { Image } from 'react-native';
 
 import hand2 from '../../assets/hand2.png';
 import { ButtonIcon } from '../../components/ButtonIcon'
-import { Container, Title, SubTitle, Content } from './styles';
+import { Container, Menu, Title, SubTitle, Content } from './styles';
 
 export function SignIn() {
     const navigation = useNavigation();
@@ -15,6 +15,7 @@ export function SignIn() {
 
     return(
         <Container>
+            <Menu name='menu' />
             <Image source={hand2} />
             <Content>
             <Title>
